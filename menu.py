@@ -25,7 +25,6 @@ class MenuBar:
         barra.add_cascade(label='Consultas', menu=menu_consultas)
         barra.add_cascade(label="Gestión", menu=menu_gestion)
         barra.add_cascade(label='Acerca de..', menu=menu_acerca)
-        barra.add_cascade(label='Ayuda', command=MenuBar.open_help)
 
         # Opciones del menú Inicio
         menu_inicio.add_command(label='Salir', command=root.destroy)
@@ -89,7 +88,7 @@ class MenuBar:
         """Abre una ventana o muestra información sobre el repositorio."""
         messagebox.showinfo(
             "Repositorio",
-            "Repositorio en GitHub: https://github.com/Jgmdevelopers/libreria_python"
+            "Repositorio en GitHub: https://github.com/Jgmdevelopers/Libreria_3F"
         )
 
     @staticmethod

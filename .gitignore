@@ -1,15 +1,44 @@
-# Archivos de sistema
+# Archivos y carpetas generales de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.db
+*.log
+
+# Configuración de entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# Archivos de configuración de PyCharm/IntelliJ IDEA
+.idea/
+*.iml
+
+# Archivos y carpetas del sistema operativo
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Entorno virtual de Python
-venv/
-
-# Archivos temporales de sistema
+# Archivos relacionados con logs y depuración
 *.log
-*.tmp
+*.bak
 *.swp
+*.tmp
 
-# Archivos de compilación
-__pycache__/
-*.pyc
+# Archivos de salida o compilación
+*.out
+*.o
+*.so
+
+# Archivos de paquetes (para proteger dependencias específicas)
+dist/
+build/
+*.egg-info/
+
+# Otros archivos específicos de tu proyecto
+libreria.db
+assets/img/videocamara.ico
